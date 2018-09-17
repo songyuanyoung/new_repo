@@ -1,0 +1,8 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿùø8Š±ÈÞ,
+Xsquid:S2589"7Remove this expression which always evaluates to "true"(Ç®¹’ùÿÿÿÿ8Š±ÈÞ,
+Tsquid:S1172"9Remove this unused method parameter "savedInstanceState".(„»æJ8Š±ÈÞ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨èøœÿÿÿÿÿ8Š±ÈÞ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡ã˜„8Š±ÈÞ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßý”Ùúÿÿÿÿ8Š±ÈÞ,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(û¿·ñ8Š±ÈÞ,

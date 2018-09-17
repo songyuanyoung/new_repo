@@ -1,0 +1,23 @@
+
+Hsquid:S1481",Remove this unused "options" local variable.(¡‚É8©Ş‘ Ş,
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8©Ş‘ Ş,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥éœ½üÿÿÿÿ8©Ş‘ Ş,
+jsquid:UselessImportCheck"<Remove this unused import 'android.content.DialogInterface'.(Š­›¨şÿÿÿÿ8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ¾ÏÓ8©Ş‘ Ş,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éö¸¿ûÿÿÿÿ8©Ş‘ Ş,
+usquid:S1450"YRemove the "navigation" field and declare it as a local variable in the relevant methods.(öñéÍ8©Ş‘ Ş,
+gsquid:UselessImportCheck"?Remove this unused import 'android.support.v7.app.AlertDialog'.(È­˜ 8©Ş‘ Ş,
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(»ÚÑ×üÿÿÿÿ8©Ş‘ Ş,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿„Ãùÿÿÿÿ8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ş—Ãæ8©Ş‘ Ş,
+Csquid:S1185"(Remove this method to simply inherit it.(¥Ë©8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö üË8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡ã˜„8©Ş‘ Ş,
+Isquid:S1604"(Make this anonymous inner class a lambda(¨Ò®±øÿÿÿÿ8©Ş‘ Ş,
+Isquid:S1604"(Make this anonymous inner class a lambda(©Ÿ±úÿÿÿÿ8©Ş‘ Ş,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßı”Ùúÿÿÿÿ8©Ş‘ Ş,
+fsquid:UselessImportCheck"=Remove this unused import 'android.location.LocationManager'.(Ü©ÎÎ8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’¬°8©Ş‘ Ş,
+Wsquid:S1854";Remove this useless assignment to local variable "options".(¡‚É8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( –Îš8©Ş‘ Ş,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òç¿”8©Ş‘ Ş,

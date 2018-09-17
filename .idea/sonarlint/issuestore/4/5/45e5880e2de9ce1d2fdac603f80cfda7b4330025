@@ -1,0 +1,11 @@
+
+Psquid:S1066"/Merge this if statement with the enclosing one.(œ‚‚ìüÿÿÿÿ8ç×„¡Þ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¨žüæ8ç×„¡Þ,
+`squid:UnusedPrivateMethod"6Remove this unused private "showDropoffDialog" method.(í†ûÃ8ç×„¡Þ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éö¸¿ûÿÿÿÿ8ç×„¡Þ,
+Qsquid:S1905"5Remove this unnecessary cast to "DirectionsResponse".(Ýˆ°ô8ç×„¡Þ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚‚¹ù8Û‡¡Þ,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(Œ½§¯8ç×„¡Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Þ—Ãæ8ç×„¡Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’¬°Ž8ç×„¡Þ,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´™Ç³8ç×„¡Þ,

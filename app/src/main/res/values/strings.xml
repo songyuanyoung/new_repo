@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VeorideDemo</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiemFjaC15YW5nIiwiYSI6ImNqbHpmajN3MDAxNHUzbG15bjB1YnhrNWMifQ.D43SoFV09mab2iXB9NddvA</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="error_valid_route_not_found">Valid route not found.</string>
+</resources>

@@ -1,0 +1,6 @@
+
+‰"squid:ClassVariableVisibilityCheck"QMake icons a static final constant or non-public and provide accessors if needed.(²‘Óûÿÿÿÿ8ÿˆ†Ş,
+csquid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ8¹Ÿ–Ş,
+xsquid:S00116"VRename this field "slide_descs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ïè–şÿÿÿÿ8¾‚Ş,
+"squid:ClassVariableVisibilityCheck"WMake slide_descs a static final constant or non-public and provide accessors if needed.(¯Ïè–şÿÿÿÿ8¾‚Ş,
+gsquid:UselessImportCheck"9Remove this unused import 'android.app.LauncherActivity'.(éÕ«úÿÿÿÿ8°—‹Ş,

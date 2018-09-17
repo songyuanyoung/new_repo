@@ -1,0 +1,25 @@
+
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õþÿÿÿÿ8ªî ¤Þ,
+‚squid:S1450"aRemove the "permissionsManager" field and declare it as a local variable in the relevant methods.(Ÿ¨ì§ùÿÿÿÿ8ªî ¤Þ,
+~squid:S1450"]Remove the "locationPlugin" field and declare it as a local variable in the relevant methods.(ùÀÒÛýÿÿÿÿ8ªî ¤Þ,
+usquid:S1450"YRemove the "navigation" field and declare it as a local variable in the relevant methods.(öñéÍ8ªî ¤Þ,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥éœ½üÿÿÿÿ8ªî ¤Þ,
+Hsquid:S1481",Remove this unused "options" local variable.(¡‚É8ªî ¤Þ,
+Isquid:S1604"(Make this anonymous inner class a lambda(©žŸ±úÿÿÿÿ8ªî ¤Þ,
+Isquid:S1604"(Make this anonymous inner class a lambda(¨Ò®±øÿÿÿÿ8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ä¸¤8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­íÖ«8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.( –Îš8ªî ¤Þ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ê®¡àûÿÿÿÿ8ªî ¤Þ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿„Ãùÿÿÿÿ8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡ã˜„8ªî ¤Þ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßý”Ùúÿÿÿÿ8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Þ—Ãæ8ªî ¤Þ,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(éö¸¿ûÿÿÿÿ8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’¬°Ž8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö üË8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ¾ÏÓ8ªî ¤Þ,
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òç¿”8ªî ¤Þ,
+Wsquid:S1854";Remove this useless assignment to local variable "options".(¡‚É8ªî ¤Þ,
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(»ÚÑ×üÿÿÿÿ8ªî ¤Þ,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(™äÆÉ8ªî ¤Þ,

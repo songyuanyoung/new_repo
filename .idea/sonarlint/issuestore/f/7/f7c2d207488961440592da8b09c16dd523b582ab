@@ -1,0 +1,11 @@
+
+Psquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ8©Û¼Ş,
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(²‹›Øüÿÿÿÿ8©Û¼Ş,
+U"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(µàÑ‹8©Û¼Ş,
+Isquid:S1444"(Make this "public static lm" field final(Ğ•¬øÿÿÿÿ8©Û¼Ş,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ó×ÎÜ8©Û¼Ş,
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(“ÃÀ®8©Û¼Ş,
+†"squid:ClassVariableVisibilityCheck"NMake lm a static final constant or non-public and provide accessors if needed.(Ğ•¬øÿÿÿÿ8©Û¼Ş,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(áÃæùÿÿÿÿ8©Û¼Ş,
+Fsquid:S00108")Either remove or fill this block of code.(å¥‡8©Û¼Ş,
+jsquid:UselessImportCheck"<Remove this unused import 'android.annotation.SuppressLint'.(ÕƒóÏûÿÿÿÿ8©Û¼Ş,
