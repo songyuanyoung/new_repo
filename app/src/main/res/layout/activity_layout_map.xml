@@ -2,7 +2,8 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
     <com.mapbox.mapboxsdk.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
@@ -24,12 +25,17 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:src="@drawable/icon_center"
+        app:backgroundTint="@color/white"
+        mapbox:fabSize="mini"
         mapbox:layout_constraintBottom_toBottomOf="parent"
         mapbox:layout_constraintEnd_toEndOf="parent"
         mapbox:layout_constraintHorizontal_bias="0.975"
         mapbox:layout_constraintStart_toStartOf="parent"
         mapbox:layout_constraintTop_toTopOf="parent"
         mapbox:layout_constraintVertical_bias="0.8" />
+
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
@@ -40,8 +46,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="#FFFFFF"
-        android:src="@drawable/icon_start"
+        app:backgroundTint="@color/white"
+        android:src="@drawable/icon_start_nav"
         mapbox:layout_constraintBottom_toBottomOf="parent"
         mapbox:layout_constraintEnd_toEndOf="parent"
         mapbox:layout_constraintStart_toStartOf="parent"

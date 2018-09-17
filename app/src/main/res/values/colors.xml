@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <!--<color name="gradiStart">#19AA8B</color>-->
+    <!--<color name="gradiEnd">#23A7D8</color>-->
+
+
+    <color name="gradiStart">#430961</color>
+    <color name="gradiEnd">#23A7D8</color>
+
+</resources>

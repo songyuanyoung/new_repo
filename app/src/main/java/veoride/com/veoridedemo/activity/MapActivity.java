@@ -82,7 +82,7 @@ public class MapActivity extends AppCompatActivity implements PermissionsListene
         mapView = findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
         navigation = new MapboxNavigation(this, Mapbox.getAccessToken());
-        startNavigationButton = findViewById(R.id.startButton);
+        startNavigationButton = (FloatingActionButton) findViewById(R.id.startButton);
         startNavigationButton.setVisibility(View.GONE);
         isSimulate = (Switch) findViewById(R.id.simulatSwitch);
         centerButton = (FloatingActionButton) findViewById(R.id.center_btn);
@@ -105,6 +105,9 @@ public class MapActivity extends AppCompatActivity implements PermissionsListene
 
                 map = mapboxMap;
                 enableLocationPlugin();
+                if (originLocation == null) {
+                    originPosition = Point.fromLngLat(41.87, -87.62);
+                }
                 mapboxMap.setCameraPosition(new CameraPosition.Builder()
                         .target(new LatLng(originLocation.getLatitude(), originLocation.getLongitude()))
                         .zoom(13)
@@ -114,17 +117,22 @@ public class MapActivity extends AppCompatActivity implements PermissionsListene
                 mapboxMap.addOnMapClickListener(new MapboxMap.OnMapClickListener() {
                     @Override
                     public void onMapClick(@NonNull LatLng point) {
-                        if (destinationMarker != null) {
-                            mapboxMap.removeMarker(destinationMarker);
-                        }
-                        destinationCoord = point;
-                        destinationMarker = mapboxMap.addMarker(new MarkerOptions()
-                                .position(destinationCoord)
-                        );
+                        if (originLocation == null) {
+                            originPosition = Point.fromLngLat(point.getLongitude(), point.getLatitude());
+                        } else {
+                            if (destinationMarker != null) {
+                                mapboxMap.removeMarker(destinationMarker);
+                            }
+                            destinationCoord = point;
+                            destinationMarker = mapboxMap.addMarker(new MarkerOptions()
+                                    .position(destinationCoord)
+                            );
 
-                        destinationPosition = Point.fromLngLat(destinationCoord.getLongitude(), destinationCoord.getLatitude());
-                        originPosition = Point.fromLngLat(originCoord.getLongitude(), originCoord.getLatitude());
-                        getRoute(originPosition, destinationPosition);
+                            destinationPosition = Point.fromLngLat(destinationCoord.getLongitude(), destinationCoord.getLatitude());
+                            originPosition = Point.fromLngLat(originCoord.getLongitude(), originCoord.getLatitude());
+                            getRoute(originPosition, destinationPosition);
+                        }
+
                     }
                 });
             }      });
@@ -209,8 +217,14 @@ public class MapActivity extends AppCompatActivity implements PermissionsListene
     }
 
     private void setCameraPosition(Location location) {
-        map.animateCamera(CameraUpdateFactory.newLatLngZoom(
-                new LatLng(location.getLatitude(), location.getLongitude()), 13));
+        if (location != null) {
+            map.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                    new LatLng(location.getLatitude(), location.getLongitude()), 13));
+        } else {
+            map.animateCamera(CameraUpdateFactory.newLatLngZoom(
+                    new LatLng(41.878, -87.6298), 13));
+        }
+
     }
 
 
